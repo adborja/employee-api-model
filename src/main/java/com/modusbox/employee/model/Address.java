@@ -13,25 +13,14 @@
 package com.modusbox.employee.model;
 
 import java.util.Objects;
-import com.google.gson.annotations.SerializedName;
-import io.swagger.v3.oas.annotations.media.Schema;
 
 /**
  * Address
  */
-
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2022-03-31T20:26:16.672588+02:00[Europe/Madrid]")
 public class Address {
-  @SerializedName("city")
   private String city = null;
-
-  @SerializedName("country")
   private String country = null;
-
-  @SerializedName("region")
   private String region = null;
-
-  @SerializedName("street")
   private String street = null;
 
   public Address city(String city) {
@@ -43,7 +32,6 @@ public class Address {
    * Get city
    * @return city
   **/
-  @Schema(description = "")
   public String getCity() {
     return city;
   }
@@ -61,7 +49,6 @@ public class Address {
    * Get country
    * @return country
   **/
-  @Schema(description = "")
   public String getCountry() {
     return country;
   }
@@ -79,7 +66,6 @@ public class Address {
    * Get region
    * @return region
   **/
-  @Schema(description = "")
   public String getRegion() {
     return region;
   }
@@ -97,7 +83,6 @@ public class Address {
    * Get street
    * @return street
   **/
-  @Schema(description = "")
   public String getStreet() {
     return street;
   }

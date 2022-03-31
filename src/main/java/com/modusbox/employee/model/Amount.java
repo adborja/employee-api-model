@@ -9,28 +9,15 @@
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */
-
 package com.modusbox.employee.model;
 
 import java.util.Objects;
-import java.util.Arrays;
-import com.google.gson.TypeAdapter;
-import com.google.gson.annotations.JsonAdapter;
-import com.google.gson.annotations.SerializedName;
-import com.google.gson.stream.JsonReader;
-import com.google.gson.stream.JsonWriter;
-import io.swagger.v3.oas.annotations.media.Schema;
-import java.io.IOException;
 /**
  * Amount
  */
-
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2022-03-31T20:26:16.672588+02:00[Europe/Madrid]")
 public class Amount {
-  @SerializedName("value")
   private Float value = null;
 
-  @SerializedName("currency")
   private String currency = null;
 
   public Amount value(Float value) {
@@ -42,7 +29,6 @@ public class Amount {
    * Get value
    * @return value
   **/
-  @Schema(description = "")
   public Float getValue() {
     return value;
   }
@@ -60,7 +46,6 @@ public class Amount {
    * Get currency
    * @return currency
   **/
-  @Schema(description = "")
   public String getCurrency() {
     return currency;
   }
